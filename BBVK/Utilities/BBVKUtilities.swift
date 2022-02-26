@@ -1,5 +1,6 @@
 import UIKit
 import Foundation
+
 class initializerUI{
     var stringPlaceHolder: UITextField?
     var placeHolder: NSAttributedString?
@@ -33,7 +34,7 @@ class initializerUI{
         }
         
         uiLabel?.text = labelString
-        uiLabel?.textColor = constants.textColor
+        uiLabel?.textColor = .black
         uiLabel?.textAlignment = textaligment
         
         return uiLabel!
@@ -61,11 +62,12 @@ class initializerUI{
     
     //MARK: creation of buttons
     
-   func uiButtonSetter(ispurple:Bool, isgray:Bool, isgreen: Bool) -> UIButton{
+   func uiButtonSetter(ispurple:Bool, isgray:Bool, isgreen: Bool, buttonText: String) -> UIButton{
         
-        uiButton = UIButton()
+      uiButton = UIButton()
       uiButton?.layer.cornerRadius = 5
-      uiButton?.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 18)
+      uiButton?.titleLabel?.font = constants.normalFont
+      uiButton?.setTitle(buttonText, for: .normal)
 
         
         if ispurple == true {
@@ -86,6 +88,30 @@ class initializerUI{
         
         return uiButton!
     }
+   
+   func uiButtonSetterClear(ispurple:Bool, isgreen: Bool, buttonText: String) -> UIButton{
+        
+      uiButton = UIButton()
+      uiButton?.layer.cornerRadius = 5
+      uiButton?.titleLabel?.font = constants.normalFont
+      uiButton?.setTitle(buttonText, for: .normal)
+
+        
+        if ispurple == true {
+           uiButton?.backgroundColor = .clear
+           uiButton?.setTitleColor(.white, for: .normal)
+           uiButton?.layer.borderColor = (constants.backgroundButtoncolorpurple as! CGColor)
+        }
+        
+      if isgreen == true {
+         uiButton?.backgroundColor = .clear
+         uiButton?.setTitleColor(.white, for: .normal)
+         uiButton?.layer.borderColor = (constants.backgroundButtoncolorGreen as! CGColor)
+      }
+        
+        
+        return uiButton!
+    }
     
     
     //MARK: Alert creation
@@ -98,6 +124,28 @@ class initializerUI{
         
         return alert
     }
+   
+   func MainViewController(viewControllerParam: UIView) {
+      let headerImage: UIImageView?
+      viewControllerParam.backgroundColor = constants.whiteBackground
+      //MARK: Header
+      headerImage = uiImageViewSetter(uiImageName: "headerimage")
+      viewControllerParam.addSubview(headerImage!)
+      headerImage?.addAnchorsAndSize(width: 70, height: 40, left: (constants.width/2)-35, top: 40, right: nil, bottom: nil)
+   }
+   
+   func ArrowButton(arrowBttnTxt: String) -> UIButton {
+      
+      uiButton = UIButton()
+      uiButton?.setImage(UIImage(named: "backArrow"), for: .normal)
+      uiButton?.titleLabel?.font = UIFont(name: "Poppins", size: 20)
+      uiButton?.backgroundColor = .clear
+      uiButton?.setTitle("  \(arrowBttnTxt)", for: .normal)
+      uiButton?.setTitleColor(constants.grayfont, for: .normal)
+      return uiButton!
+   }
+   
+
     
 //    func stackViewSetter() ->UIStackView{
 //        let stackView = UIStackView()
