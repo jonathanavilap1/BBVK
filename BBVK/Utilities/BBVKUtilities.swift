@@ -48,6 +48,7 @@ class initializerUI{
         if isClear != true {
             stringPlaceHolder?.backgroundColor = .white
             stringPlaceHolder?.layer.borderWidth = 1
+            stringPlaceHolder?.layer.cornerRadius = constants.cornerTextField
         }
         
         if isSecure == true{

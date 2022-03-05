@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
        uiInit()
+        // usamos funcion de timer
+        timer = Timer.scheduledTimer(timeInterval: 0, target: self, selector: #selector(ViewController.timerAction), userInfo: nil, repeats: false)
+        viewWillDisappear(true)
     }
    
    func uiInit(){
@@ -44,6 +47,23 @@ class ViewController: UIViewController {
 
       
    }
+    
+    //MARK: func de timer para cambiar de view
+    var timer : Timer?
+    
+    @objc func timerAction()
+    {
+        if timer != nil {
+            timer?.invalidate()
+            dismiss(animated: true, completion: {
+                let vc = ContrasenaViewController()
+                vc.modalPresentationStyle = .fullScreen
+                self.present(vc, animated: true, completion: nil)
+                print("Login Screen")
+            })
+        }
+    }
+    
       
 }
 

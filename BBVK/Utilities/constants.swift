@@ -24,4 +24,6 @@ class constants{
    static let normalFont = UIFont(name: "Poppins", size: 20)
    
    static let grayfont = UIColor(red: 0.38, green: 0.38, blue: 0.38, alpha: 1.00)
+   
+   static let cornerTextField = 5 as CGFloat
 }
