@@ -20,6 +20,7 @@
 		ACAE6BCD27CA8ABD003C2B48 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE6BCC27CA8ABD003C2B48 /* Utils.swift */; };
 		ACE69C9627C5B67F0083E559 /* BBVKUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69C9527C5B67F0083E559 /* BBVKUtilities.swift */; };
 		ACE69CB927C5C3AD0083E559 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69CB827C5C3AD0083E559 /* constants.swift */; };
+		F622F94827D1AD2A0020DB48 /* uploaddocument sunview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622F94727D1AD2A0020DB48 /* uploaddocument sunview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		ACAE6BCC27CA8ABD003C2B48 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		ACE69C9527C5B67F0083E559 /* BBVKUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVKUtilities.swift; sourceTree = "<group>"; };
 		ACE69CB827C5C3AD0083E559 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		F622F94727D1AD2A0020DB48 /* uploaddocument sunview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "uploaddocument sunview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 			children = (
 				6C77A99527C31E1800098A16 /* AppDelegate.swift */,
 				6C77A99727C31E1800098A16 /* SceneDelegate.swift */,
-				6C77A99927C31E1800098A16 /* ViewController.swift */,
 				6C77A99B27C31E1800098A16 /* Main.storyboard */,
 				6C77A99E27C31E1A00098A16 /* Assets.xcassets */,
 				6C77A9A027C31E1A00098A16 /* LaunchScreen.storyboard */,
@@ -140,7 +141,9 @@
 		ACAE6BC927CA8712003C2B48 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F622F94627D1AB6A0020DB48 /* uploadDocumentsSubviews */,
 				ACAE6BCA27CA876D003C2B48 /* VerificacionIdentidadWelcome.swift */,
+				6C77A99927C31E1800098A16 /* ViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +156,14 @@
 				ACAE6BCC27CA8ABD003C2B48 /* Utils.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F622F94627D1AB6A0020DB48 /* uploadDocumentsSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				F622F94727D1AD2A0020DB48 /* uploaddocument sunview.swift */,
+			);
+			path = uploadDocumentsSubviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				6C77A99627C31E1800098A16 /* AppDelegate.swift in Sources */,
 				6C77A99827C31E1800098A16 /* SceneDelegate.swift in Sources */,
 				ACAE6BCD27CA8ABD003C2B48 /* Utils.swift in Sources */,
+				F622F94827D1AD2A0020DB48 /* uploaddocument sunview.swift in Sources */,
 				ACE69CB927C5C3AD0083E559 /* constants.swift in Sources */,
 				ACE69C9627C5B67F0083E559 /* BBVKUtilities.swift in Sources */,
 				ACAE6BCB27CA876D003C2B48 /* VerificacionIdentidadWelcome.swift in Sources */,

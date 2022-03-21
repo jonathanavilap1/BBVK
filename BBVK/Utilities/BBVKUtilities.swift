@@ -89,12 +89,13 @@ class initializerUI{
         return uiButton!
     }
    
-   func uiButtonSetterClear(ispurple:Bool, isgreen: Bool, buttonText: String) -> UIButton{
+    func uiButtonSetterClear(ispurple:Bool, isgreen: Bool, isclear: Bool, buttonText: String) -> UIButton{
         
       uiButton = UIButton()
       uiButton?.layer.cornerRadius = 5
       uiButton?.titleLabel?.font = constants.normalFont
       uiButton?.setTitle(buttonText, for: .normal)
+      let arrowImage = UIImageView(image: UIImage(systemName: "arrow.forward"))
 
         
         if ispurple == true {
@@ -108,6 +109,14 @@ class initializerUI{
          uiButton?.setTitleColor(.white, for: .normal)
          uiButton?.layer.borderColor = (constants.backgroundButtoncolorGreen as! CGColor)
       }
+    if isclear == true {
+       uiButton?.backgroundColor = .clear
+        uiButton?.setTitleColor(constants.grayfont, for: .normal)
+        uiButton?.contentHorizontalAlignment = .left
+        uiButton?.addSubview(arrowImage)
+        arrowImage.addAnchors(left:nil, top: nil, right: 5, bottom: nil)
+        
+    }
         
         
         return uiButton!
