@@ -20,6 +20,8 @@
 		ACAE6BCD27CA8ABD003C2B48 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE6BCC27CA8ABD003C2B48 /* Utils.swift */; };
 		ACE69C9627C5B67F0083E559 /* BBVKUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69C9527C5B67F0083E559 /* BBVKUtilities.swift */; };
 		ACE69CB927C5C3AD0083E559 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE69CB827C5C3AD0083E559 /* constants.swift */; };
+		C746FD5C27EA6A1500A3F275 /* DatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746FD5B27EA6A1500A3F275 /* DatosViewController.swift */; };
+		C746FD5E27EAC2E700A3F275 /* DataLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746FD5D27EAC2E700A3F275 /* DataLoginViewController.swift */; };
 		C7935AA727D1663E00AC9457 /* ContrasenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935AA627D1663E00AC9457 /* ContrasenaViewController.swift */; };
 		C7935AA927D1758500AC9457 /* TelefonoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935AA827D1758500AC9457 /* TelefonoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		ACAE6BCC27CA8ABD003C2B48 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		ACE69C9527C5B67F0083E559 /* BBVKUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVKUtilities.swift; sourceTree = "<group>"; };
 		ACE69CB827C5C3AD0083E559 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		C746FD5B27EA6A1500A3F275 /* DatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosViewController.swift; sourceTree = "<group>"; };
+		C746FD5D27EAC2E700A3F275 /* DataLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoginViewController.swift; sourceTree = "<group>"; };
 		C7935AA627D1663E00AC9457 /* ContrasenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrasenaViewController.swift; sourceTree = "<group>"; };
 		C7935AA827D1758500AC9457 /* TelefonoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +169,8 @@
 			children = (
 				C7935AA627D1663E00AC9457 /* ContrasenaViewController.swift */,
 				C7935AA827D1758500AC9457 /* TelefonoViewController.swift */,
+				C746FD5B27EA6A1500A3F275 /* DatosViewController.swift */,
+				C746FD5D27EAC2E700A3F275 /* DataLoginViewController.swift */,
 			);
 			path = saul;
 			sourceTree = "<group>";
@@ -308,7 +314,9 @@
 				ACE69C9627C5B67F0083E559 /* BBVKUtilities.swift in Sources */,
 				C7935AA927D1758500AC9457 /* TelefonoViewController.swift in Sources */,
 				C7935AA727D1663E00AC9457 /* ContrasenaViewController.swift in Sources */,
+				C746FD5C27EA6A1500A3F275 /* DatosViewController.swift in Sources */,
 				ACAE6BCB27CA876D003C2B48 /* VerificacionIdentidadWelcome.swift in Sources */,
+				C746FD5E27EAC2E700A3F275 /* DataLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
