@@ -56,14 +56,12 @@ class ViewController: UIViewController {
         if timer != nil {
             timer?.invalidate()
             dismiss(animated: true, completion: {
-                let vc = DataLoginViewController()
+                let vc = FormViewController()
                 vc.modalPresentationStyle = .fullScreen
                 self.present(vc, animated: true, completion: nil)
                 print("Login Screen")
             })
         }
     }
-    
-      
 }
 
