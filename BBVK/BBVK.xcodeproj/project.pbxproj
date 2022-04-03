@@ -26,6 +26,8 @@
 		C746FD6A27F772DB00A3F275 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746FD6927F772DB00A3F275 /* CountryViewController.swift */; };
 		C746FD6C27F7776300A3F275 /* CodeTableVewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746FD6B27F7776300A3F275 /* CodeTableVewCell.swift */; };
 		C746FD6E27F77BCC00A3F275 /* DictionaryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746FD6D27F77BCC00A3F275 /* DictionaryCodes.swift */; };
+		C746FD7027F8955E00A3F275 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746FD6F27F8955E00A3F275 /* CardViewController.swift */; };
+		C746FD7227F8962E00A3F275 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746FD7127F8962E00A3F275 /* CardView.swift */; };
 		C7935AA727D1663E00AC9457 /* ContrasenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935AA627D1663E00AC9457 /* ContrasenaViewController.swift */; };
 		C7935AA927D1758500AC9457 /* TelefonoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7935AA827D1758500AC9457 /* TelefonoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,8 @@
 		C746FD6927F772DB00A3F275 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
 		C746FD6B27F7776300A3F275 /* CodeTableVewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTableVewCell.swift; sourceTree = "<group>"; };
 		C746FD6D27F77BCC00A3F275 /* DictionaryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryCodes.swift; sourceTree = "<group>"; };
+		C746FD6F27F8955E00A3F275 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		C746FD7127F8962E00A3F275 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C7935AA627D1663E00AC9457 /* ContrasenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrasenaViewController.swift; sourceTree = "<group>"; };
 		C7935AA827D1758500AC9457 /* TelefonoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +163,7 @@
 			children = (
 				ACAE6BCA27CA876D003C2B48 /* VerificacionIdentidadWelcome.swift */,
 				C746FD6B27F7776300A3F275 /* CodeTableVewCell.swift */,
+				C746FD7127F8962E00A3F275 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				C746FD5D27EAC2E700A3F275 /* DataLoginViewController.swift */,
 				C746FD6727F7677F00A3F275 /* FormViewController.swift */,
 				C746FD6927F772DB00A3F275 /* CountryViewController.swift */,
+				C746FD6F27F8955E00A3F275 /* CardViewController.swift */,
 			);
 			path = saul;
 			sourceTree = "<group>";
@@ -330,8 +336,10 @@
 				C7935AA727D1663E00AC9457 /* ContrasenaViewController.swift in Sources */,
 				C746FD5C27EA6A1500A3F275 /* DatosViewController.swift in Sources */,
 				ACAE6BCB27CA876D003C2B48 /* VerificacionIdentidadWelcome.swift in Sources */,
+				C746FD7027F8955E00A3F275 /* CardViewController.swift in Sources */,
 				C746FD5E27EAC2E700A3F275 /* DataLoginViewController.swift in Sources */,
 				C746FD6A27F772DB00A3F275 /* CountryViewController.swift in Sources */,
+				C746FD7227F8962E00A3F275 /* CardView.swift in Sources */,
 				C746FD6E27F77BCC00A3F275 /* DictionaryCodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

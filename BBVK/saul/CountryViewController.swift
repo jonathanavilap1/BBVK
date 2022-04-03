@@ -113,7 +113,9 @@ class CountryViewController: UIViewController {
     }
     
     @objc func continueFlow() {
-        
+        let vc = CardViewController()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
 }
 
