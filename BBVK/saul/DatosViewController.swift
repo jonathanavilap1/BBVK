@@ -46,7 +46,7 @@ class DatosViewController: UIPageViewController {
         //initUI()
         
         self.txtDatePicker.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant:10).isActive = true
-        self.txtDatePicker.trailingAnchor
+      //  self.txtDatePicker.trailingAnchor
         
     }
     
